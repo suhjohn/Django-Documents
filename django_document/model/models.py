@@ -32,9 +32,15 @@ class Car(models.Model):
         return(f'{self.manufacturer} - {self.name}')
 
 class Student(models.Model):
+    """
+    Recurisve Relationship Example
+    """
     name = models.CharField(max_length=50)
     teacher = models.ForeignKey(
         'self',
         on_delete=models.SET_NULL,
         null=True,
     )
+
+    def __str__(self):
+        return(self.name)
