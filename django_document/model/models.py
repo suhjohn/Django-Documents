@@ -30,3 +30,11 @@ class Car(models.Model):
 
     def __str__(self):
         return(f'{self.manufacturer} - {self.name}')
+
+class Student(models.Model):
+    name = models.CharField(max_length=50)
+    teacher = models.ForeignKey(
+        'self',
+        on_delete=models.SET_NULL,
+        null=True,
+    )
