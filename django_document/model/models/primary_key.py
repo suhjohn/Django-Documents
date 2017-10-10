@@ -1,8 +1,9 @@
 from django.db import models
 
-__all__ =(
+__all__ = (
     'Fruit',
 )
+
 
 class Fruit(models.Model):
     name = models.CharField(

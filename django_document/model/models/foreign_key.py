@@ -1,6 +1,5 @@
 from django.db import models
 
-
 __all__ = (
     'Manufacturer',
     'Car',
@@ -36,4 +35,3 @@ class Student(models.Model):
 
     def __str__(self):
         return (self.name)
-
