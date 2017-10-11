@@ -31,7 +31,13 @@ class Student(models.Model):
         'self',
         on_delete=models.SET_NULL,
         null=True,
+        blank=True,
     )
+    def save(self, *args, **kwargs):
+        if self.teacher == self:
+            print('teacher cannot be self')
+            self.teacher = None
+        super().save(*args, **kwargs)
 
     def __str__(self):
         return (self.name)

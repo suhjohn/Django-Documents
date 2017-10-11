@@ -8,7 +8,9 @@ from .models import (
     Fruit,
     Topping, Pizza,
     FacebookUser,InstagramUser,
-    Membership, Group, Idol)
+    Membership, Group, Idol,
+    Place, Restaurant,
+)
 
 admin.site.register(Person)
 admin.site.register(Manufacturer)
@@ -22,3 +24,5 @@ admin.site.register(InstagramUser)
 admin.site.register(Idol)
 admin.site.register(Group)
 admin.site.register(Membership)
+admin.site.register(Place)
+admin.site.register(Restaurant)
