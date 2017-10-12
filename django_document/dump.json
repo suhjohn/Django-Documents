@@ -1,0 +1,570 @@
+[
+{
+    "model": "inheritance.school",
+    "pk": 1,
+    "fields": {
+        "name": "\ud328\ucea0"
+    }
+},
+{
+    "model": "inheritance.student",
+    "pk": 1,
+    "fields": {
+        "school": 1,
+        "name": "\uc11c\uc0c1\uc6d0",
+        "age": 24,
+        "home_group": "\uc7a5\uace0"
+    }
+},
+{
+    "model": "inheritance.place",
+    "pk": 3,
+    "fields": {
+        "name": "Sinsa",
+        "address": ""
+    }
+},
+{
+    "model": "inheritance.place",
+    "pk": 4,
+    "fields": {
+        "name": "Yeoksam",
+        "address": ""
+    }
+},
+{
+    "model": "inheritance.place",
+    "pk": 5,
+    "fields": {
+        "name": "great",
+        "address": "abc st"
+    }
+},
+{
+    "model": "inheritance.restaurant",
+    "pk": 3,
+    "fields": {
+        "serves_hot_dogs": false,
+        "serves_pizza": false
+    }
+},
+{
+    "model": "inheritance.restaurant",
+    "pk": 4,
+    "fields": {
+        "serves_hot_dogs": false,
+        "serves_pizza": false
+    }
+},
+{
+    "model": "inheritance.restaurant",
+    "pk": 5,
+    "fields": {
+        "serves_hot_dogs": false,
+        "serves_pizza": false
+    }
+},
+{
+    "model": "inheritance.champion",
+    "pk": 1,
+    "fields": {
+        "champion_type": "magician",
+        "rank": 0,
+        "name": "\uc81c\ub77c\uc2a4"
+    }
+},
+{
+    "model": "inheritance.champion",
+    "pk": 2,
+    "fields": {
+        "champion_type": "ad",
+        "rank": 0,
+        "name": "\uc774\uc988"
+    }
+},
+{
+    "model": "inheritance.champion",
+    "pk": 3,
+    "fields": {
+        "champion_type": "ad",
+        "rank": 0,
+        "name": "\ubca0\uc778"
+    }
+},
+{
+    "model": "making_queries.blog",
+    "pk": 1,
+    "fields": {
+        "name": "Beatles Blog",
+        "tagline": "All the latest Beatles news."
+    }
+},
+{
+    "model": "making_queries.blog",
+    "pk": 2,
+    "fields": {
+        "name": "Your blog",
+        "tagline": ""
+    }
+},
+{
+    "model": "making_queries.author",
+    "pk": 1,
+    "fields": {
+        "name": "Joe",
+        "email": ""
+    }
+},
+{
+    "model": "making_queries.author",
+    "pk": 2,
+    "fields": {
+        "name": "John",
+        "email": ""
+    }
+},
+{
+    "model": "making_queries.author",
+    "pk": 3,
+    "fields": {
+        "name": "Paul",
+        "email": ""
+    }
+},
+{
+    "model": "making_queries.author",
+    "pk": 4,
+    "fields": {
+        "name": "George",
+        "email": ""
+    }
+},
+{
+    "model": "making_queries.author",
+    "pk": 5,
+    "fields": {
+        "name": "Ringo",
+        "email": ""
+    }
+},
+{
+    "model": "making_queries.entry",
+    "pk": 1,
+    "fields": {
+        "blog": 2,
+        "headline": "My first entry",
+        "body_text": "",
+        "pub_date": null,
+        "mod_date": null,
+        "n_comments": 0,
+        "n_pingbacks": 0,
+        "rating": 0,
+        "authors": [
+            1
+        ]
+    }
+},
+{
+    "model": "making_queries.entry",
+    "pk": 2,
+    "fields": {
+        "blog": 2,
+        "headline": "beatles first entry",
+        "body_text": "",
+        "pub_date": null,
+        "mod_date": null,
+        "n_comments": 0,
+        "n_pingbacks": 0,
+        "rating": 0,
+        "authors": [
+            2,
+            3,
+            4,
+            5
+        ]
+    }
+},
+{
+    "model": "making_queries.entry",
+    "pk": 3,
+    "fields": {
+        "blog": 2,
+        "headline": "2006 entry",
+        "body_text": "",
+        "pub_date": "2006-01-01",
+        "mod_date": null,
+        "n_comments": 0,
+        "n_pingbacks": 0,
+        "rating": 0,
+        "authors": []
+    }
+},
+{
+    "model": "model.person",
+    "pk": 1,
+    "fields": {
+        "name": "\uc774\ud55c\uc601",
+        "shirt_size": "M"
+    }
+},
+{
+    "model": "model.manufacturer",
+    "pk": 1,
+    "fields": {
+        "name": "hyundai"
+    }
+},
+{
+    "model": "model.manufacturer",
+    "pk": 2,
+    "fields": {
+        "name": "KIA"
+    }
+},
+{
+    "model": "model.car",
+    "pk": 1,
+    "fields": {
+        "manufacturer": 1,
+        "name": "\uc18c\ub098\ud0c0"
+    }
+},
+{
+    "model": "model.car",
+    "pk": 2,
+    "fields": {
+        "manufacturer": 2,
+        "name": "\ub808\uc774"
+    }
+},
+{
+    "model": "model.car",
+    "pk": 3,
+    "fields": {
+        "manufacturer": 2,
+        "name": "K5"
+    }
+},
+{
+    "model": "model.student",
+    "pk": 7,
+    "fields": {
+        "name": "John",
+        "teacher": null
+    }
+},
+{
+    "model": "model.student",
+    "pk": 8,
+    "fields": {
+        "name": "\uc774\ud55c\uc601",
+        "teacher": null
+    }
+},
+{
+    "model": "model.fruit",
+    "pk": "banana",
+    "fields": {}
+},
+{
+    "model": "model.pizza",
+    "pk": 1,
+    "fields": {
+        "name": "\ub9db\ub09c\ud53c\uc7901",
+        "topping": [
+            1,
+            2,
+            3
+        ]
+    }
+},
+{
+    "model": "model.topping",
+    "pk": 1,
+    "fields": {
+        "name": "\ud398\ud37c\ub85c\ub2c8"
+    }
+},
+{
+    "model": "model.topping",
+    "pk": 2,
+    "fields": {
+        "name": "\uc18c\uc2dc\uc9c0"
+    }
+},
+{
+    "model": "model.topping",
+    "pk": 3,
+    "fields": {
+        "name": "\ud30c\uc778\uc560\ud50c"
+    }
+},
+{
+    "model": "model.topping",
+    "pk": 4,
+    "fields": {
+        "name": "\uace0\uad6c\ub9c8"
+    }
+},
+{
+    "model": "model.topping",
+    "pk": 5,
+    "fields": {
+        "name": "\ubaa8\uc9dc\ub810\ub77c\uce58\uc988"
+    }
+},
+{
+    "model": "model.idol",
+    "pk": 2,
+    "fields": {
+        "name": "\uc804\uc18c\ubbf8"
+    }
+},
+{
+    "model": "model.idol",
+    "pk": 3,
+    "fields": {
+        "name": "\uc784\ub098\uc601"
+    }
+},
+{
+    "model": "model.idol",
+    "pk": 4,
+    "fields": {
+        "name": "\uac15\ubbf8\ub098"
+    }
+},
+{
+    "model": "model.idol",
+    "pk": 5,
+    "fields": {
+        "name": "\uae40\uc18c\ud61c"
+    }
+},
+{
+    "model": "model.idol",
+    "pk": 6,
+    "fields": {
+        "name": "\uc8fc\uacb0\uacbd"
+    }
+},
+{
+    "model": "model.idol",
+    "pk": 7,
+    "fields": {
+        "name": "\uae40\uccad\ud558"
+    }
+},
+{
+    "model": "model.idol",
+    "pk": 8,
+    "fields": {
+        "name": "\uc804\uc18c\ubbf8"
+    }
+},
+{
+    "model": "model.idol",
+    "pk": 9,
+    "fields": {
+        "name": "\uae40\uc138\uc815"
+    }
+},
+{
+    "model": "model.idol",
+    "pk": 10,
+    "fields": {
+        "name": "\uae40\ub3c4\uc5f0"
+    }
+},
+{
+    "model": "model.idol",
+    "pk": 11,
+    "fields": {
+        "name": "\uc720\uc5f0\uc815"
+    }
+},
+{
+    "model": "model.idol",
+    "pk": 12,
+    "fields": {
+        "name": "\ucd5c\uc720\uc815"
+    }
+},
+{
+    "model": "model.group",
+    "pk": 1,
+    "fields": {
+        "name": "\uc6b0\uc8fc\uc18c\ub140",
+        "debut_date": "2016-02-25"
+    }
+},
+{
+    "model": "model.group",
+    "pk": 2,
+    "fields": {
+        "name": "\uad6c\uad6c\ub2e8",
+        "debut_date": "2016-06-28"
+    }
+},
+{
+    "model": "model.group",
+    "pk": 3,
+    "fields": {
+        "name": "\ud504\ub9ac\uc2a4\ud2f4",
+        "debut_date": "2017-03-21"
+    }
+},
+{
+    "model": "model.group",
+    "pk": 5,
+    "fields": {
+        "name": "I.O.I",
+        "debut_date": "2016-04-02"
+    }
+},
+{
+    "model": "model.membership",
+    "pk": 1,
+    "fields": {
+        "idol": 2,
+        "group": 5,
+        "joined_date": "2017-10-10",
+        "is_active": true,
+        "recommenders": []
+    }
+},
+{
+    "model": "model.membership",
+    "pk": 2,
+    "fields": {
+        "idol": 3,
+        "group": 5,
+        "joined_date": "2017-10-10",
+        "is_active": true,
+        "recommenders": []
+    }
+},
+{
+    "model": "model.membership",
+    "pk": 3,
+    "fields": {
+        "idol": 4,
+        "group": 5,
+        "joined_date": "2017-10-10",
+        "is_active": true,
+        "recommenders": []
+    }
+},
+{
+    "model": "model.membership",
+    "pk": 4,
+    "fields": {
+        "idol": 5,
+        "group": 5,
+        "joined_date": "2017-10-10",
+        "is_active": true,
+        "recommenders": []
+    }
+},
+{
+    "model": "model.membership",
+    "pk": 5,
+    "fields": {
+        "idol": 6,
+        "group": 5,
+        "joined_date": "2017-10-10",
+        "is_active": true,
+        "recommenders": []
+    }
+},
+{
+    "model": "model.membership",
+    "pk": 6,
+    "fields": {
+        "idol": 7,
+        "group": 5,
+        "joined_date": "2017-10-10",
+        "is_active": true,
+        "recommenders": []
+    }
+},
+{
+    "model": "model.membership",
+    "pk": 7,
+    "fields": {
+        "idol": 8,
+        "group": 5,
+        "joined_date": "2017-10-10",
+        "is_active": true,
+        "recommenders": []
+    }
+},
+{
+    "model": "model.membership",
+    "pk": 8,
+    "fields": {
+        "idol": 9,
+        "group": 5,
+        "joined_date": "2017-10-10",
+        "is_active": true,
+        "recommenders": []
+    }
+},
+{
+    "model": "model.membership",
+    "pk": 9,
+    "fields": {
+        "idol": 10,
+        "group": 5,
+        "joined_date": "2017-10-10",
+        "is_active": true,
+        "recommenders": []
+    }
+},
+{
+    "model": "model.membership",
+    "pk": 10,
+    "fields": {
+        "idol": 11,
+        "group": 5,
+        "joined_date": "2017-10-10",
+        "is_active": true,
+        "recommenders": []
+    }
+},
+{
+    "model": "model.membership",
+    "pk": 11,
+    "fields": {
+        "idol": 12,
+        "group": 5,
+        "joined_date": "2017-10-10",
+        "is_active": true,
+        "recommenders": []
+    }
+},
+{
+    "model": "model.place",
+    "pk": 1,
+    "fields": {
+        "name": "Demon Dogs",
+        "address": "944 W Fullerton Ave"
+    }
+},
+{
+    "model": "model.place",
+    "pk": 2,
+    "fields": {
+        "name": "Ace Hardware",
+        "address": "1013 N. Ashland"
+    }
+},
+{
+    "model": "model.restaurant",
+    "pk": 1,
+    "fields": {
+        "serves_hot_dogs": true,
+        "serves_pizza": false
+    }
+}
+]
