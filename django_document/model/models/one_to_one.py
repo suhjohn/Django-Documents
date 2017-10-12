@@ -17,7 +17,9 @@ class Restaurant(models.Model):
         Place,
         on_delete=models.CASCADE,
         primary_key=True,
+        parent_link=True,
     )
+
     serves_hot_dogs = models.BooleanField(default=False)
     serves_pizza = models.BooleanField(default=False)
 
@@ -30,3 +32,5 @@ class Waiter(models.Model):
 
     def __str__(self):              # __unicode__ on Python 2
         return f'{self.name} is the waiter at {self.restaurant}'
+
+

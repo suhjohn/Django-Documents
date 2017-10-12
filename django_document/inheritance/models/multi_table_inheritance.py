@@ -15,3 +15,9 @@ class Restaurant(Place):
 
     def __str__(self):
         return f'{self.name} Restaurant'
+
+
+"""
+place 에서 supplier를 호출
+place customers_set
+"""
